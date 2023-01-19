@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index4.html"><img src="Images/logo.jpg.JPG"></a>
+            <div class="nav-links">
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's biggest university</h1>
+            <p>Making websites is one of the easiest thing to do.
+             You just need to learn HTML,CSS,<br>Java script and you are good to go
+            </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+
+    </section>
+
+    <!----- course ----->
+
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>we offer different courses from science, engineering, social art, health science etc.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>we offer A-level courses in fields like; science, technical, art and commercial</p>
+            </div>
+            <div class="course-col">
+                <h3>under-graduate degree</h3>
+                <p>we offer MBBS, PharmD, BSC.computer science, Business administration etc</p>
+            </div>
+            <div class="course-col">
+                <h3>post-graduate</h3>
+                <p>we offer the best post-graduate courses like; MBA, MTech, Project management 
+                    CFA, PDM, PGD in hotel management </p>
+            </div>
+        </div>
+   </section>
+
+   <!------ campus----->
+   
+   <section class="Campus">
+    <h>Our Global Campus</h>
+    <p>we have campus in different places with a conducive environment for learning</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/washington.JPG">
+            <div class="layer"></div>
+            <h3>Washington DC.</h3>
+        </div>
+        <div class="campus-col">
+            <img src="images/london.JPG">
+            <div class="layer"></div>
+            <h3>New York.</h3>
+    </div>
+    <div class="campus-col">
+        <img src="images/new york.JPG">
+        <div class="layer"></div>
+        <h3>London.</h3>
+
+
+
+   </section>
+
+   <!-----facilities---->
+
+   <section class="facilities">
+          <h1>Our Facilities</h1>
+          <p> We have different facilities in the school </p>
+
+          <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg.JPG">
+                <h3>World Class Library</h3>
+                <p>Our library support in research, consultancy and resourse linkage for students</p>
+            </div>
+          <div class="facilities-col">
+            <img src="images/sport.jpg.JPG">
+            <h3>Largest recreational environment</h3>
+            <p>We have a large recreational environment where students play in their leisure time</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafetaria.JPG"
+            <h3>Tasty and nutritious food</h3>
+            <p>We have a variety of tasty foods to keep our students healthy</p>
+        </div>
+        </div>
+   </section>
+
+   <!-----testimonials----->
+
+   <section class="testimonials">
+    <h1>What our students say</h1>
+    <p>Coming to this university is the best decision we have made </p>
+
+    <div class="row">
+          <div class="testimonial-col">
+            <img src="images/school.jpg.JPG">
+            <div>
+                <p>you will never regret coming to the school</p>
+                <h3>Charles Isaac</h3>
+                <i class="fa fa-star"></i> 
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user.JPG">
+                <div>
+                    <p>The school has changed my life</p>
+                    <h3>Emily James</h3>
+                    <i class="fa fa-star"></i> 
+                <i class="fa fa-star"></i>
+                <i class="<fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                </div>
+                </div>
+    </div>
+   </section>
+
+   <!-----call to action----->
+
+   <section class="cta">
+    <h1>Enroll for our various online courses<br>anywhere from the world</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+   </section>
+
+    <!----- footer ---->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We try our possible best to give the best education to our students<br>from all over the world</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-telegram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Fatima Sani</p>
+    </section>
+
+
+
+
+
+
+
+    <!-----javascript for toggle menu------>
+    <script>
+
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+            navLinks.style.right = "0";
+         }
+         function hidemenu(){
+            navLinks.style.right = "-200px";
+         }
+    </script>
+    
+</body>
+</html> 
